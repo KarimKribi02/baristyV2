@@ -1,6 +1,7 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
-const Home = () => <h1>Accueil</h1>;
 const Menu = () => <h1>Menu</h1>;
 const Concept = () => <h1>Concept</h1>;
 const Gallery = () => <h1>Galerie</h1>;
