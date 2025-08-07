@@ -8,7 +8,7 @@ const menuItems = [
     name: "Sandwich Poulet",
     img: "/menu1.jpg",
     description: "Poulet grillé, légumes frais et sauce spéciale",
-    price: "45 DH",
+    
     time: "15 min",
     rating: 4.8,
     category: "Plat Principal",
@@ -18,7 +18,7 @@ const menuItems = [
     name: "Avocado Toast",
     img: "/menu2.jpg", 
     description: "Avocat frais, pain artisanal et graines de sésame",
-    price: "35 DH",
+    
     time: "10 min",
     rating: 4.9,
     category: "Petit Déjeuner",
@@ -28,7 +28,7 @@ const menuItems = [
     name: "Café Spécial",
     img: "/menu3.jpg",
     description: "Mélange unique de grains torréfiés, crème onctueuse",
-    price: "25 DH",
+   
     time: "5 min", 
     rating: 5.0,
     category: "Boisson",
@@ -250,15 +250,7 @@ const MenuSection = () => {
                       {item.price}
                     </div>
                     
-                    <motion.button
-                      whileHover={{ scale: 1.05, x: 5 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold border border-yellow-500/30 hover:bg-yellow-500/10 transition-colors"
-                      style={{ color: '#cc9809' }}
-                    >
-                      <Info className="w-4 h-4" />
-                      Détails
-                    </motion.button>
+                    
                   </div>
                 </div>
 

@@ -215,21 +215,7 @@ const AboutSection = () => {
             variants={itemVariants}
             className="text-center"
           >
-            <motion.div
-              className="inline-flex items-center gap-4 px-8 py-4 rounded-2xl backdrop-blur-sm border border-yellow-500/30 bg-yellow-500/10"
-              whileHover={{ 
-                scale: 1.05,
-                backgroundColor: 'rgba(204, 152, 9, 0.2)',
-                boxShadow: '0 10px 30px rgba(204, 152, 9, 0.3)'
-              }}
-              transition={{ duration: 0.3 }}
-            >
-              <Users className="w-6 h-6" style={{ color: '#cc9809' }} />
-              <span className="text-white font-semibold text-lg">
-                Rejoignez notre communauté de passionnés
-              </span>
-              <Clock className="w-6 h-6" style={{ color: '#cc9809' }} />
-            </motion.div>
+            
           </motion.div>
         </motion.div>
       </div>

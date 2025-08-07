@@ -157,7 +157,17 @@ const Footer = () => {
                 whileHover={{ scale: 1.02, y: -5 }}
                 className="relative group overflow-hidden rounded-3xl shadow-2xl"
               >
-              
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.0713149478474!2d-9.5362643!3d30.3983867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9671235731d%3A0x4547d60b8ae53d70!2sBaristy!5e1!3m2!1sar!2sma!4v1754525469396!5m2!1sar!2sma"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Baristy Map"
+                  className="transition-all duration-300 group-hover:saturate-110"
+                ></iframe>
                 
                 {/* Map Overlay */}
                 <motion.div
